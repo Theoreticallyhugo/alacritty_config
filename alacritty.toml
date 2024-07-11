@@ -32,7 +32,8 @@ y = 0
 
 [bell]
 # test with `tput bel`
-duration = 500
+duration = 0
+# duration = 500
 color = "#600000"
 
 [mouse]
@@ -93,7 +94,7 @@ semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
 [window]
 decorations_theme_variant = "Dark"
 dynamic_title = true
-startup_mode = "Fullscreen"
+startup_mode = "Windowed"
 decorations = "Full"
 resize_increments = true
 
